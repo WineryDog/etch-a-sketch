@@ -95,8 +95,6 @@ function listenColorInput(e) {
     rainbowBtn.classList.remove("is-used");
     darkModeBtn.classList.remove("is-used");
     classicModeBtn.classList.add("is-used");
-
-
 }
 
 // Rainbow Mode //
