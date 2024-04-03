@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    width: 868px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.middle-box {
+    display: flex;
+    justify-content: center;
+    gap:60px;
+
+}
+
+.menu {
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2d2d2d;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 18px;;
+    gap: 8px;
+
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.image-menu {
+    width: 180px;
+    height: 110px;
+    border: 1px solid #2d2d2d;
+}
+
+.grid-size {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.slider {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 70%; 
+    height: 25px; 
+    background: #b6b6b6; 
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+  
+
+.slider:hover {
+    opacity: 1; 
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: rgb(119, 164, 204);
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(119, 164, 204);
+    cursor: pointer;
+}
+
+.color-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+#color-btn {
+    cursor: pointer;   
+}
+
+
+.fill-mode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 110px
+}
+
+button {
+    width: 88px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(230, 230, 158);
+    cursor: pointer;
+}
+
+.is-used {
+    background-color: rgb(228, 152, 65);
+    transition: all .3s;
+}
+
+.grid-container {
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border: 2px solid #2d2d2d;
+    height: 600px;
+    width: 600px;
+    overflow: auto;
+}
+
+.footer{
+    width: 868px;
+    text-align: right;
+    border: 2px solid #2d2d2d;
+    background-color: rgb(119, 164, 204);
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="jscode.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <h1 class="title">Etch-a-Sketch</h1>     
+    <div class="middle-box">   
+        <div class="menu">
+            <div class="img-div">
+                <img class="image-menu" src="image.jpg">
+            </div>            
+            <div class="grid-size">
+                <span>Grid Size</span>
+                <span id="grid-size-value">16 x 16</span>
+                <input class="slider" type="range" value="16" min="1" max="100">
+                <div class="grid-btns">
+                    <button id="clear-btn" class="grid-btn">Clear</button>
+                </div>
+            </div>
+            <div class="color-selection">
+                <span class="color-text">Color:</span>
+                <input id="color-btn" type="color" value="#000000">
+            </div>    
+            <div class="fill-mode">
+                <span class="mode-header">Mode:</span>
+                <button id="classic-mode-btn" class="is-used">Classic</button>
+                <button id="darkening-mode-btn" class="">Darkening</button>
+                <button id="rainbow-mode-btn" class="">Rainbow</button>
+            </div>
+        </div>    
+        <div class="grid-container">
+        </div> 
+    </div>  
+    <div class="footer">Photo by Joseph Pérez on Unsplash - Coded by <a href="https://github.com/WineryDog" rel="noopener noreferrer" target="_blank">WineryDog</a></div>
+</body>
+</html>
